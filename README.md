@@ -7,6 +7,7 @@
     א': הוסיפו לשחקן את האופציה לקפוץ. כאשר נלחץ על המקש הארוך, השחקן יקפוץ.
 
 https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs
+
 לקחנו את הסקריפט מהשיעור והוספנו לו כמה שורות.אם נלחץ כפתור הרווח השחקן הזז כלפי מעלה על ציר ה-Y
 
     2 .נשק: בחרו אפשרות אחת -
@@ -15,9 +16,11 @@ https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/Cha
 
 יצרנו 3 קוביות חומות שעליהן הקוד עובד. הוספנו לשחקן סקריפט חדש שבו נשלחת קרן לייזר קדימה כשהשחקן לוחץ על E
 אם הקרן פוגעת בקוביה, ניתן להזיז את הקוביה למשך כמה שניות בעזרת הלחצנים y g h j
+
 https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/RayCast.cs
 
     3 .אינטראקציה : בחרו אופציה אחת-
     ב': צרו דמות כלשהי, כאשר נלחץ לידה על כפתור E ,היא תגיד !Hey ,או שיהיה רשום !Hey על המסך. 
 יצרנו קוביה צהובה שעושה את הפעולה הזו. הוספנו לה סקריפט שבודק אם השחקן קרוב אליו וגם E לחוץ אז רואים את הטקסט
+
 https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/sayHello.cs

@@ -19,8 +19,13 @@ https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/Cha
 
 https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/RayCast.cs
 
+![WhatsApp Image 2020-12-28 at 14 52 45](https://user-images.githubusercontent.com/57709369/103215700-c81a2280-491c-11eb-8b83-50240ffd385f.jpeg)
+
+
     3 .אינטראקציה : בחרו אופציה אחת-
     ב': צרו דמות כלשהי, כאשר נלחץ לידה על כפתור E ,היא תגיד !Hey ,או שיהיה רשום !Hey על המסך. 
 יצרנו קוביה צהובה שעושה את הפעולה הזו. הוספנו לה סקריפט שבודק אם השחקן קרוב אליו וגם E לחוץ אז רואים את הטקסט
 
 https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/sayHello.cs
+
+![WhatsApp Image 2020-12-28 at 14 53 59](https://user-images.githubusercontent.com/57709369/103215716-d8320200-491c-11eb-9f8b-04f2be07cfaf.jpeg)

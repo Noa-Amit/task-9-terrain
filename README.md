@@ -1,22 +1,23 @@
-# Unity week 6: Three-dimensional scene-building and navigation
+<div dir='rtl' lang='he'>
 
-A project with step-by-step scenes illustrating how to construct a 3D game, including:
+# מטלה 9 שבועית
+את כל השינויים בקוד עשינו על הסצנה a-charactercontroller
 
-* Scene modelling with Terrain Tools and ProGrids;
-* Player control with CharacterController and NavMeshAgent;
-* Enemy AI;
-* Target visualization with gizmmos.
+    1 .תזוזה: בחרו אפשרות אחת-
+    א': הוסיפו לשחקן את האופציה לקפוץ. כאשר נלחץ על המקש הארוך, השחקן יקפוץ.
 
-## Credits
+https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs
+לקחנו את הסקריפט מהשיעור והוספנו לו כמה שורות.אם נלחץ כפתור הרווח השחקן הזז כלפי מעלה על ציר ה-Y
 
-Programming:
-* Michael Lemberger
-* Erel Segal-Halevi
+    2 .נשק: בחרו אפשרות אחת -
+    ד': תמיד רציתם כוח על משלכם! צרו כמה אובייקטים קטנים בסביבה הקיימת. כעת צרו raycast שכאשר הוא פוגע
+    באחד מהאובייקטים הללו, השחקן יוכל להזיז את האובייקט ממקום למקום.
 
-Graphics:
-* [Sci-Fi Gun Light](https://assetstore.unity.com/packages/3d/props/guns/sci-fi-gun-light-87916)
-* [Sci-Fi Styled Modular Pack](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913)
-* [Toon Soldiers Demo](https://assetstore.unity.com/packages/3d/characters/toon-soldiers-demo-69684)
+יצרנו 3 קוביות חומות שעליהן הקוד עובד. הוספנו לשחקן סקריפט חדש שבו נשלחת קרן לייזר קדימה כשהשחקן לוחץ על E
+אם הקרן פוגעת בקוביה, ניתן להזיז את הקוביה למשך כמה שניות בעזרת הלחצנים y g h j
+https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/RayCast.cs
 
-Online course:
-* [Unity RPG](https://www.gamedev.tv/p/unity-rpg/?product_id=1503859&coupon_code=JOINUS).
+    3 .אינטראקציה : בחרו אופציה אחת-
+    ב': צרו דמות כלשהי, כאשר נלחץ לידה על כפתור E ,היא תגיד !Hey ,או שיהיה רשום !Hey על המסך. 
+יצרנו קוביה צהובה שעושה את הפעולה הזו. הוספנו לה סקריפט שבודק אם השחקן קרוב אליו וגם E לחוץ אז רואים את הטקסט
+https://github.com/Noa-Amit/task-9-terrain/blob/main/Assets/Scripts/1-player/sayHello.cs
